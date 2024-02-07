@@ -1,0 +1,62 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  position: relative;
+  /* top,bottom,left and right */
+  left: 100px;
+  bottom: 40px;
+}
+
+#card {
+  background-color: green;
+  border-radius: 13px;
+  margin: 40px;
+  height: 300px;
+  width: 500px;
+  color: white;
+  position: relative;
+  background-image: url("11-dogs-like-german-shepherd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#expiry {
+  position: absolute;
+  right: 200px;
+  bottom: 50px;
+}
+h2 {
+  position: absolute;
+  top: 15px;
+  right: 34px;
+}
+#name {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+}
+#mpesalogo {
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+#chat {
+  position: fixed;
+  left: 50px;
+  top: 300px;
+}
+#stickybtn {
+  position: sticky;
+  top: 10px;
+}
+#dummy {
+  height: 3000px;
+}
+
+/* list atleast ten commonly used CLI commands and what they do. */
+
+/* directory/folder */
+/* cd, mkdir, rm, rmdir, touch,   */
